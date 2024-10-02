@@ -39,7 +39,7 @@ public class Main {
                 a = scanner.nextInt();
                 System.out.println("Enter second number: ");
                 b = scanner.nextInt();
-                System.out.println(operators.subtract(a, b));
+                System.out.println("El resultado de la resta es: " + operators.subtract(a, b));
                 menu();
                 break;
             case 0:
